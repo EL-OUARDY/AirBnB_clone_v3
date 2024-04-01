@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""This module contains api endpoints"""
+"""This module contains API endpoints for status and count features"""
 
 from api.v1.views import app_views
 from flask import jsonify
