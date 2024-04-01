@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Initializer for views module"""
+"""This module contains api endpoints"""
 
 from api.v1.views import app_views
 from flask import jsonify
