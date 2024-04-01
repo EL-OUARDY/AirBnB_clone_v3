@@ -55,7 +55,7 @@ def create_state():
     # validate the posted state data
     if not new_state:
         abort(400, "Not a JSON")
-    elif "name" not in request.get_json().keys():
+    elif "name" not in new_state.keys():
         abort(400, "Missing name")
     else:
         # create the state object
